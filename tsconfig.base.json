@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ecosystem/ui": ["libs/ui/src/index.ts"]
+      "@ecosystem/components/ui": ["libs/components/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
