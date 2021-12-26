@@ -6,10 +6,7 @@ module.exports = {
   presets: [require('../../../tailwind-workspace-preset.js')],
   purge: [
     join(__dirname, './pages/**/*.{js,ts,jsx,tsx}'),
-    ...createGlobPatternsForDependencies(
-      __dirname,
-      '../../../tailwind.workspace-preset.js'
-    ),
+    ...createGlobPatternsForDependencies(__dirname, 'apps/clients/web'),
   ],
   darkMode: 'media', // or 'media' or 'class'
   theme: {

@@ -1,18 +1,14 @@
+const { join } = require('path');
 const defaultTheme = require('tailwindcss/defaultTheme');
 const { createGlobPatternsForDependencies } = require('@nrwl/next/tailwind');
-const { join } = require('path');
 
 module.exports = {
   presets: [require('../../../tailwind-workspace-preset.js')],
   purge: [
     join(__dirname, './components/**/*.{js,ts,jsx,tsx}'),
-    ...createGlobPatternsForDependencies(__dirname),
+    ...createGlobPatternsForDependencies(__dirname, 'libs/components/ui'),
   ],
-  darkMode: false, // or 'media' or 'class'
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-  ],
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {
       backgroundImage: () => ({
