@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Beach Cleaning Day",
+    "description": "A day to help clean ",
+    "date": "2017-08-01",
+    "location": "Panamá, Ciudad de Panamá",
+    "image": "https://www.blessgroup.net/wp-content/uploads/2018/05/IMG-20180505-WA0006_1525720947764.jpg"
+  },
+  {
+    "name": "Manglar Cleaning Day",
+    "description": "A day to help clean",
+    "date": "2017-08-01",
+    "location": "Costa del Este, Panamá",
+    "image": "https://www.blessgroup.net/wp-content/uploads/2018/05/IMG-20180505-WA0006_1525720947764.jpg"
+  }
+]

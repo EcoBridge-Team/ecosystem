@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Wood",
+    "label": "Wood",
+    "value": 290,
+    "color": "#CF995F"
+  },
+  {
+    "id": "Metal",
+    "label": "Metal",
+    "value": 362,
+    "color": "#7D5BA6"
+  },
+  {
+    "id": "Glass",
+    "label": "Glass",
+    "value": 286,
+    "color": "#8FB8DE"
+  },
+  {
+    "id": "Plastic",
+    "label": "Plastic",
+    "value": 584,
+    "color": "#D0CE7C"
+  },
+  {
+    "id": "Cartboard",
+    "label": "Cartboard",
+    "value": 547,
+    "color": "#059669"
+  }
+]
