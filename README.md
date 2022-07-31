@@ -6,12 +6,6 @@ IBM CALL FOR CODE 2021 - LATIN AMERICA FINALIST https://developer.ibm.com/callfo
 
 Ecobridge is a platform that unites collectors of recyclable material with consumers seeking resources to manufacture their products. We seek to feed a database with collected materials to classify them by their ability to be recycled and provide more detailed information on each one. By joining these two users we facilitate the search for both by increasing the demand for these materials through our platform. Thus allowing the creation of a circular economy market that contributes to the decrease in the use of natural resources. At the same time, through the platform, we can provide any person or business with an endorsement of the resources they consume and also a certification of the carbon footprint by a recycling company if they wish.
 
-This project was generated using [Nx](https://nx.dev).
-
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
-
-🔎 **Smart, Extensible Build Framework**
-
 ## Adding capabilities to your workspace
 
 Nx supports many plugins which add capabilities for developing different types of applications and different tools.
